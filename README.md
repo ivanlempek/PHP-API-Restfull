@@ -3,6 +3,7 @@
 API Rest com autenticação Sanctum criado com Laravel 9
 
 Alterações necessários para o funcionamento do projeto:
+
 	- /api/.env: 
 		-DB_HOST=mysql
 		-DB_DATABASE="nome do seu banco de dados"

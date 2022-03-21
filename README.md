@@ -2,13 +2,6 @@
 
 API Rest com autenticação Sanctum criado com Laravel 9
 
-
-Para o levantamento do ambiente foi usado o Docker e Laradock, do qual usei os seguintes containers:
-	- sudo docker-compose up -d nginx mysql phpmyadmin
-
-E para o teste de API foi usado o Postman.
-
-
 Alterações necessários para o funcionamento do projeto:
 	- /api/.env: 
 		-DB_HOST=mysql
@@ -22,6 +15,17 @@ Alterações necessários para o funcionamento do projeto:
 		-NGINX_HOST_HTTPS_PORT=543 ou outro valor
 		-MYSQL_PORT=2306 ou outro valor
 		-PMA_PORT=8069 ou outro valor
+		
+
+Para o levantamento do ambiente foi usado o Docker e Laradock, do qual usei os seguintes containers:
+	- sudo docker-compose up -d nginx mysql phpmyadmin
+	
+	Comandos necessários para a utilização da aplicação:
+	- sudo apt-get update
+	- composer install
+	- php artisan migrate	
+
+E para o teste de API foi usado o Postman.
 
 Comandos necessários para a utilização da aplicação:
 	- sudo apt-get update

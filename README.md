@@ -19,6 +19,7 @@ Alterações necessários para o funcionamento do projeto:
 		
 
 Para o levantamento do ambiente foi usado o Docker e Laradock, do qual usei os seguintes containers:
+
 	- sudo docker-compose up -d nginx mysql phpmyadmin
 	
 	Comandos necessários para a utilização da aplicação:

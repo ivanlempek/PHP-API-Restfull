@@ -26,6 +26,9 @@ Para o levantamento do ambiente foi usado o Docker e Laradock, do qual usei os s
 	- sudo apt-get update
 	- composer install
 	- php artisan key:generate
+	
+	É necessário entrar no workspace do docker para rodar o migrate
+	- sudo docker-compose exec --user=laradock workspace bash
 	- php artisan migrate	
 
 E para o teste de API foi usado o Postman.

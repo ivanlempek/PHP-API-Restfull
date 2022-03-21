@@ -27,7 +27,3 @@ Para o levantamento do ambiente foi usado o Docker e Laradock, do qual usei os s
 
 E para o teste de API foi usado o Postman.
 
-Comandos necessários para a utilização da aplicação:
-	- sudo apt-get update
-	- composer install
-	- php artisan migrate	
